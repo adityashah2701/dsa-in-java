@@ -13,7 +13,6 @@ public class Rec_6 {
     public static void main(String[] args) {
         int n = 9;
         System.out.print(fib(n) + " ");
-
         System.out.println();
     }
 }

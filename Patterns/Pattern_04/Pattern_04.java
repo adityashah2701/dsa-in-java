@@ -23,7 +23,7 @@ public class Pattern_04 {
                     count -= 2; // Decrease count for lower half
                     spaces++; // Increase spaces for lower half
                 }
-            System.out.println(" ");
+            System.out.println(" " + Integer.MAX_VALUE);
         }
     }
 }

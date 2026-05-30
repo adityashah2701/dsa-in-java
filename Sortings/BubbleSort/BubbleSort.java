@@ -11,11 +11,11 @@ public class BubbleSort {
     }
 
     public static void main(String[] args) {
-        int[] arr = { 98, 48, 37, 416, 55, 34, 43, 28, 18, 80 };
+        int[] arr = { 98, 48, 37, 416, 55, 34, 43, 28, 18, 80 }; 
         int n = arr.length;
 
         print(arr, "Array before Sorting is :- ");
-        for (int i = 1; i < n; i++) {
+        for (int i = 0 ; i < n - 1 ; i++ ) {
             for (int j = 0; j < n - 1; j++) {
                 if (arr[j] > arr[j + 1]) {
                     int temp = arr[j];
@@ -23,6 +23,7 @@ public class BubbleSort {
                     arr[j + 1] = temp;
                 }
             }
+            
         }
 
         print(arr, "Sorted Array is :");
